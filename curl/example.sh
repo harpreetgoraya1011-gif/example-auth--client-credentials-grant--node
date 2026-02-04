@@ -13,12 +13,12 @@ ACCESS_TOKEN=$(curl -s -X POST \
   -d "grant_type=client_credentials" \
   -d "client_id=${CLIENT_ID}" \
   -d "client_secret=${CLIENT_SECRET}" | jq -r '.access_token')
-
-echo "Got access token: ${ACCESS_TOKEN:0:10}..."
 # [END client-credentials.get-token]
 
+echo "Got access token: ${ACCESS_TOKEN:0:10}..."
+
 # [START client-credentials.query-products]
-# Query products
+# Query products using the access token
 curl -s -X POST \
   "https://${SHOP}.myshopify.com/admin/api/2025-01/graphql.json" \
   -H "Content-Type: application/json" \
