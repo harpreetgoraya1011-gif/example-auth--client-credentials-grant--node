@@ -1,11 +1,11 @@
 #!/bin/bash
 
-// [START client-credentials.config]
+# [START client-credentials.config]
 # Configuration - replace with your values
 SHOP="your-store"
 CLIENT_ID="your-client-id"
 CLIENT_SECRET="your-client-secret"
-// [END client-credentials.config]
+# [END client-credentials.config]
 
 # [START client-credentials.get-token]
 # Get access token (requires jq)
