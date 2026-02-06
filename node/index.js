@@ -1,9 +1,11 @@
 import { URLSearchParams } from 'node:url';
 
+// [START client-credentials.config]
 // Configuration - replace with your values
 const SHOP = 'your-store';
 const CLIENT_ID = 'your-client-id';
 const CLIENT_SECRET = 'your-client-secret';
+// [END client-credentials.config]
 
 // [START client-credentials.get-token]
 async function getToken(shop, clientId, clientSecret) {
