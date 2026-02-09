@@ -3,8 +3,7 @@ import time
 
 import requests
 
-# // [START client-credentials.config]
-
+# [START client-credentials.config]
 def load_dotenv(path=".env"):
     if not os.path.exists(path):
         return
