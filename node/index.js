@@ -1,11 +1,6 @@
 import { URLSearchParams } from 'node:url';
 
 // [START client-credentials.config]
-// .env file format:
-// SHOPIFY_SHOP=your-store
-// SHOPIFY_CLIENT_ID=your-client-id
-// SHOPIFY_CLIENT_SECRET=your-client-secret
-
 const SHOP = process.env.SHOPIFY_SHOP;
 const CLIENT_ID = process.env.SHOPIFY_CLIENT_ID;
 const CLIENT_SECRET = process.env.SHOPIFY_CLIENT_SECRET;
