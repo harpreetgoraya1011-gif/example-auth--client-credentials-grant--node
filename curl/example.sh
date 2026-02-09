@@ -2,9 +2,6 @@
 set -euo pipefail
 
 # [START client-credentials.config]
-SHOPIFY_SHOP=your-store
-SHOPIFY_CLIENT_ID=your-client-id
-SHOPIFY_CLIENT_SECRET=your-client-secret
 
 # Load environment variables from .env file
 if [ -f .env ]; then
