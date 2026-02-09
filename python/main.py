@@ -4,10 +4,6 @@ import time
 import requests
 
 # // [START client-credentials.config]
-# .env file format:
-# SHOPIFY_SHOP=your-store
-# SHOPIFY_CLIENT_ID=your-client-id
-# SHOPIFY_CLIENT_SECRET=your-client-secret
 
 def load_dotenv(path=".env"):
     if not os.path.exists(path):
