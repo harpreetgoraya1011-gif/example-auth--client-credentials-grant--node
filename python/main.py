@@ -1,4 +1,6 @@
-import os
+SHOPIFY_SHOP=aumaasa.myshopify.com
+SHOPIFY_CLIENT_ID= 3fc28e8d1411979f25ca1e19a8ee6d99
+SHOPIFY_CLIENT_SECRET= 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import os
 import time
 
 import requests
